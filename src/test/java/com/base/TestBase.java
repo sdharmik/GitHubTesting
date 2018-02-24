@@ -28,6 +28,7 @@ public class TestBase {
 	 */
 
 	public static WebDriver driver;
+	
 	public static Properties OR = new Properties();
 	public static Properties Config = new Properties();
 	public static ExcelReader excel = new ExcelReader(
