@@ -35,6 +35,7 @@ public class TestBase {
 			System.getProperty("user.dir") + "\\src\\test\\resources\\com\\data\\ExcelReadTest.xlsx");
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static FileInputStream fis = null;
+	
 
 	@BeforeSuite
 	public void setup() {
